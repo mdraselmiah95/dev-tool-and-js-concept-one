@@ -121,3 +121,14 @@ console.log(charlesBabbage);
 // global scope -- stevekaku
 
 // Closure
+
+function parent() {
+  const x = 10;
+
+  return function () {
+    const y = 20;
+    console.log(x + y); // x = parent function er bhitore
+  };
+
+  // console.log(y); // y = child function er bhitore
+}
