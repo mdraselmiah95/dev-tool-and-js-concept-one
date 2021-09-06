@@ -73,3 +73,6 @@ function biriani() {
 
 //executional phase
 // a =  10
+
+// Scope
+// ==> scope হচ্ছে একটা এরিয়া যেখান থেকে একটা ভ্যারিয়েবল / ফাংশনকে এক্সেস করা যায়।
