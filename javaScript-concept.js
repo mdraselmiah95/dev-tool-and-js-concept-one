@@ -7,4 +7,5 @@
  6) Scope Chaining 
  7) Closure 
  8) Synchronous & Asynchronous
+ 
 */
