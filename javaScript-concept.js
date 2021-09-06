@@ -59,3 +59,17 @@ biriani();
 function biriani() {
   console.log("Hi I am biriani");
 }
+//creational phase
+// b = ref
+
+//executional phase
+// biriani()
+
+// console.log(b)
+// const b = 20;
+
+// creational phase
+// a = undefine
+
+//executional phase
+// a =  10
