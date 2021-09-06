@@ -41,8 +41,8 @@ context=> 1. Creational phase
 
 // 3. Hoisting
 
-console.log(a);
-var a = 11;
+console.log(a); //a=undefine
+var a = 11; //create a=undefine
 console.log(a);
 
 food();
