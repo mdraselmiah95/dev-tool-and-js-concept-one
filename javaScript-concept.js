@@ -40,3 +40,12 @@ context=> 1. Creational phase
 */
 
 // 3. Hoisting
+
+console.log(a);
+var a = 11;
+console.log(a);
+
+food();
+function food() {
+  console.log("Hi, i like Egg.");
+}
