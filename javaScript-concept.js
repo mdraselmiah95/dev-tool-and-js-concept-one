@@ -117,3 +117,5 @@ function markZuckerbergKaku() {
 const charlesBabbage = "Ami togo bap Charles Babbage";
 steveKaku();
 console.log(charlesBabbage);
+
+// global scope -- stevekaku
