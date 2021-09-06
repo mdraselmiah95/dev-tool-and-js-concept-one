@@ -80,3 +80,14 @@ function biriani() {
 // Global Scope
 
 // ==> যেখানে কোন ভ্যারিয়েবল/ ফাংশনকে ডিক্লেয়ার করলে সব জায়গা থেকে এক্সেস করা যায়
+
+const x = 15;
+function hi() {
+  var y = 20;
+  console.log(x);
+  console.log(y);
+}
+
+function c() {
+  console.log("I am code.");
+}
