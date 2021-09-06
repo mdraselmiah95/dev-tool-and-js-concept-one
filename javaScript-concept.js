@@ -138,3 +138,10 @@ grandParent();
 
 // parent function er vhitore kono variable or function touri korle child function theke acess kora jay , kintu
 // child function er vhitore kono variable or function touri korle parent theke acess kora jay na
+
+function a() {
+  const x = 11;
+  return "something";
+}
+// console.log(x);
+console.log(a());
