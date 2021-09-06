@@ -119,3 +119,5 @@ steveKaku();
 console.log(charlesBabbage);
 
 // global scope -- stevekaku
+
+// Closure
