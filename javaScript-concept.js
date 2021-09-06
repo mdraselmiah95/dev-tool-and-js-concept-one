@@ -20,6 +20,11 @@ function programming() {
 }
 programming();
 
+// Creational Phase
+// name = Programming hero;
+// programming = ref
+// x = undefine
+
 //Steps of executing code
 
 /* 
@@ -33,3 +38,5 @@ context=> 1. Creational phase
           2. Executional phase
 
 */
+
+// 3. Hoisting
