@@ -88,7 +88,7 @@ function hi() {
 
   //   var y = 20;
   console.log(x);
-  console.log(y);
+  //   console.log(y);
 }
 
 function c() {
@@ -96,6 +96,24 @@ function c() {
 }
 hi();
 c();
-console.log(y);
+// console.log(y);
 
 // 6. Scope Chaining
+
+function steveKaku() {
+  billGatesKaku();
+  console.log("Hello i am steve jobs");
+}
+
+function billGatesKaku() {
+  markZuckerbergKaku();
+  console.log("Hello i am  bill Gates");
+}
+
+function markZuckerbergKaku() {
+  console.log("Hello i am markZuckerbergKaku");
+}
+
+const charlesBabbage = "Ami togo bap Charles Babbage";
+steveKaku();
+console.log(charlesBabbage);
