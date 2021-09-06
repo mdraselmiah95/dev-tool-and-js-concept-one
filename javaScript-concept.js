@@ -97,3 +97,5 @@ function c() {
 hi();
 c();
 console.log(y);
+
+// 6. Scope Chaining
