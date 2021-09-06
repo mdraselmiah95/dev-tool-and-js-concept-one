@@ -49,3 +49,13 @@ food();
 function food() {
   console.log("Hi, i like Egg.");
 }
+
+console.log(a); // a = undefine
+var a = 10; // create  a = undefine
+
+// a = undefine
+
+biriani();
+function biriani() {
+  console.log("Hi I am biriani");
+}
