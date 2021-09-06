@@ -167,3 +167,19 @@ setTimeout(() => {
 }, 1000);
 
 console.log("I am fourth");
+
+function api(numbers) {
+  const result = numbers.filter((element) => element > 20);
+  return result;
+}
+
+const numbers = [11, 4, 32, 64, 54, 89, 99];
+api(numbers);
+
+function api(book) {
+  const books = ["javascript", "react", "php", "css"];
+  const result = books.filter((element) => element == book);
+  return result;
+}
+
+console.log(api("php"));
