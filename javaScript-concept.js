@@ -145,3 +145,23 @@ function a() {
 }
 // console.log(x);
 console.log(a());
+
+// 8. Synchronous & Asynchronous
+
+//Synchronous
+console.log("I am First");
+console.log("I am Second");
+console.log("I am Third");
+console.log("I am fourth");
+
+// Asynchronous
+
+console.log("I am First");
+
+setTimeout(() => {
+  console.log("I am second");
+}, 2000);
+
+setTimeout(() => {
+  console.log("I am third");
+}, 1000);
