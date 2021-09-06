@@ -83,6 +83,9 @@ function biriani() {
 
 const x = 15;
 function hi() {
+  //local Scope
+  //  যেখানে কোন ভ্যারিয়েবল/ ফাংশনকে ডিক্লেয়ার করলে এর বাহির থেকে এক্সেস করা যায় না
+
   var y = 20;
   console.log(x);
   console.log(y);
