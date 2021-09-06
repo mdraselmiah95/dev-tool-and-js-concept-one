@@ -86,7 +86,7 @@ function hi() {
   //local Scope
   //  যেখানে কোন ভ্যারিয়েবল/ ফাংশনকে ডিক্লেয়ার করলে এর বাহির থেকে এক্সেস করা যায় না
 
-  var y = 20;
+  //   var y = 20;
   console.log(x);
   console.log(y);
 }
@@ -94,3 +94,6 @@ function hi() {
 function c() {
   console.log("I am code.");
 }
+hi();
+c();
+console.log(y);
