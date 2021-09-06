@@ -183,3 +183,5 @@ function api(book) {
 }
 
 console.log(api("php"));
+
+fetch().then((response) => response.json());
