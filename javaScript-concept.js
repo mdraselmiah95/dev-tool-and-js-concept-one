@@ -165,3 +165,5 @@ setTimeout(() => {
 setTimeout(() => {
   console.log("I am third");
 }, 1000);
+
+console.log("I am fourth");
