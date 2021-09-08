@@ -12,4 +12,7 @@ const resubmit = -5;
 const person = { name: "hero", id: 101, address: "BD", postalCode: 40321 };
 // console.log(Object.length(person).keys);
 // console.log(Object.keys.length);
-console.log(Object.keys(person).length);
+// console.log(Object.keys(person).length);
+
+const animals = ["cat", "dog", "rat"];
+console.log(animals.includes("Cat"));
