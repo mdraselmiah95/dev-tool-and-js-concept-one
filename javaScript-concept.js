@@ -194,3 +194,15 @@ regular expression two special characters:
  */
 
 // Regex to validate password strength
+
+/* 
+
+My password strength criteria is as below :
+
+8 characters length
+2 letters in Upper Case
+1 Special Character (!@#$&*)
+2 numerals (0-9)
+3 letters in Lower Case
+Can somebody please give me regex for same. All conditions must be met by password .
+ */
