@@ -15,4 +15,13 @@ const person = { name: "hero", id: 101, address: "BD", postalCode: 40321 };
 // console.log(Object.keys(person).length);
 
 const animals = ["cat", "dog", "rat"];
-console.log(animals.includes("Cat"));
+// console.log(animals.includes("Cat"));
+
+const add = (para1, para2) => para2 + para1;
+
+const num = add("2", 3);
+// console.log(num);
+
+const colors = { mango: "green", grapes: "black", organe: "yellow" };
+
+// console.log(colors[grapes]);
