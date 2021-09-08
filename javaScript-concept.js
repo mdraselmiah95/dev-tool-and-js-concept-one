@@ -187,7 +187,8 @@ console.log(api("php"));
 fetch().then((response) => response.json());
 
 /* 
-regular expression two special characters
+regular expression two special characters:
+
 /(?:[^`!@#$%^&*\-_=+'\/.,]*[`!@#$%^&*\-_=+'\/.,]){2}/;
 
  */
