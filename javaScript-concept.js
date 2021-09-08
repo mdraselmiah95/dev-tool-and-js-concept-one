@@ -192,3 +192,5 @@ regular expression two special characters:
 /(?:[^`!@#$%^&*\-_=+'\/.,]*[`!@#$%^&*\-_=+'\/.,]){2}/;
 
  */
+
+// Regex to validate password strength
