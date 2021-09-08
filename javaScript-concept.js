@@ -206,3 +206,5 @@ My password strength criteria is as below :
 3 letters in Lower Case
 Can somebody please give me regex for same. All conditions must be met by password .
  */
+
+//^(?=.*[A-Z].*[A-Z])(?=.*[!@#$&*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8}$
