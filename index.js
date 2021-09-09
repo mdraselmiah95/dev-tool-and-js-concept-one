@@ -10,3 +10,9 @@
  7) Closure 
  8) Synchronous & Asynchronous
 */
+
+const first = () => console.log("Hi I am first");
+const second = () => console.log("Hi I am second");
+const third = () => {
+  console.log("hi I am third");
+};
