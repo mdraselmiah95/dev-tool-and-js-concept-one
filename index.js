@@ -39,3 +39,14 @@ const third = () => {
 third();
 
 //local storage and session storage
+
+const person = { name: "Hero", age: 3 };
+const getItem = (property) => {
+  for (let key in person) {
+    if (key === property) {
+      console.log(person[key]);
+    }
+  }
+};
+
+getItem("name");
