@@ -38,4 +38,4 @@ const third = () => {
 };
 third();
 
-//local storage and section storage
+//local storage and session storage
