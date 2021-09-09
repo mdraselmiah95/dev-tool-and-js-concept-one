@@ -48,5 +48,11 @@ const getItem = (property) => {
     }
   }
 };
-
 getItem("name");
+
+const setItem = (property, value) => {
+  person[property] = value;
+};
+
+setItem("ph", 123456);
+console.log(person);
