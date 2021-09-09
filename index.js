@@ -37,3 +37,5 @@ const third = () => {
   console.log("hi I am third");
 };
 third();
+
+//local storage and section storage
