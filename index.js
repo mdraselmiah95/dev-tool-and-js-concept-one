@@ -11,8 +11,21 @@
  8) Synchronous & Asynchronous
 */
 
+// Synchronous
+
 const first = () => console.log("Hi I am first");
 const second = () => console.log("Hi I am second");
 const third = () => {
+  first();
+  second();
   console.log("hi I am third");
 };
+
+third();
+
+//  Asynchronous
+console.log("first");
+setTimeout(() => {
+  console.log("second");
+}, 2000);
+console.log("third");
