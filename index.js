@@ -37,3 +37,14 @@ setTimeout(() => {
   console.log("second");
 }, 2000);
 console.log("third");
+
+const first = () => console.log("Hi I am first");
+const second = () => console.log("Hi I am second");
+const fourth = () => console.log("Hi I am fourth");
+const third = () => {
+  first();
+  setTimeout(second, 4000);
+  setTimeout(fourth, 3000);
+  console.log("hi I am third");
+};
+third();
