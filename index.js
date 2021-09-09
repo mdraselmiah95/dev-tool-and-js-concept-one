@@ -21,6 +21,14 @@ const third = () => {
   console.log("hi I am third");
 };
 
+const first = () => console.log("Hi I am first");
+const second = () => console.log("Hi I am second");
+const third = () => {
+  second();
+  first();
+  console.log("hi I am third");
+};
+
 third();
 
 //  Asynchronous
